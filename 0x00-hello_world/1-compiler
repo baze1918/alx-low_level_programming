@@ -1,2 +1,2 @@
 #!/bin/bsh
-gcc -c $CFILEC
+gcc -c $CFILE
