@@ -1,8 +1,8 @@
-#include "main.h"
+int print_sign(int ;#include "main.h"
 /**
- * print_sign - checks forsign character
- * @c: The character to be checked
- * Return: 1,-1,0
+ * print_sign - checks for sign character
+ * @n: The character to be checked
+ * Return: 1, -1, 0
  */
 int print_sign(int n)
 {
@@ -13,8 +13,8 @@ int print_sign(int n)
 	}
 	else if (n == 0)
 	{
-		 _putchar('0');
-		 return ('0');
+		putchar('0');
+		return (0);
 	}
 	else
 	{
