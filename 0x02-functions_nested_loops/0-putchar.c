@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * main - Entry point
- * Retun: Always 0 (Success)
+ * main - Entry point is functions
+ * Return: Alwyas 0
  */
-int  main(void)
+int main(void)
 
 {
 _putchar('_');
