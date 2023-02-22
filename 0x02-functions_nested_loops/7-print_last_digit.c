@@ -4,7 +4,7 @@
  * @n: The character to be checked
  * Return:  last
  */
-int print_last_digit(int n);
+int print_last_digit(int n)
 {
 	int last;
 
@@ -15,5 +15,4 @@ int print_last_digit(int n);
 	}
 		_putchar(last + '0');
 		return (last);
-	}
 }
