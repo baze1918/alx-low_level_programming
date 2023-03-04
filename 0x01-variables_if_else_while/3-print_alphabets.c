@@ -1,25 +1,21 @@
-#include <stdio.h>
 
 /**
-* main - Entry pint
-*
-* Return: Always 0 (Success)
-*/
-
+ * main - Entry point function programming
+ *
+ * Return: Alwyas 0 (Success)
+ */
 int main(void)
 {
-	int n = 97;
-	int m = 65;
+	int d;
 
-	while (n <= 122)
+	for (d = '0'; d <= '9'; d++)
 	{
-		putchar(n);
-		n++;
-	}
-	while (m <= 90)
+		putchar(d);
+	if (d != '9')
 	{
-		putchar(m);
-		m++;
+	putchar(',');
+		putchar(' ');
+		}
 	}
 	putchar('\n');
 	return (0);
