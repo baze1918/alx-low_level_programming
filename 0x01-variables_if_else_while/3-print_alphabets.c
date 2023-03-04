@@ -1,27 +1,24 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
 /**
 * main - Entry pint
 *
 * Return: Always 0 (Success)
 */
+
 int main(void)
 {
-char c;
-char d;
-c = 'a';
-d = 'A';
-while
-(c <= 'z')
-{
-putchar(c);
-c++;
-}
-while
-(d <= 'z')
-{
-putchar(d);
-d++;
-}
-putchar('\n');
-return (0);
+
+	char low;
+
+	for (low = '0'; low <= 'z'; low++)
+	{
+		putchar(low);
+	}
+	for (low = 'A'; low <= 'Z'; low++)
+		putchar(low);
+		putchar('\n');
+		return (0);
 }
