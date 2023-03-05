@@ -1,20 +1,22 @@
 #include <stdio.h>
 /**
  * main - Entry point function programming
- *
+ * Description: 'print alphabets lowercase and upercase'
  * Return: Alwyas 0 (Success)
  */
 int main(void)
 {
-	int d;
+	int n = 97;
+	int m = 65
 
-	for (d = '0'; d <= '9'; d++)
-	{
-		putchar(d);
-	if (d != '9')
-	{
-	putchar(', ');
+	while (n <= 122)
+		putchar(n);
+		n++;
 	}
+	while (m <= 90)
+	{
+		putchar(m);
+		m++;
 	}
 	putchar('\n');
 	return (0);
