@@ -7,6 +7,6 @@
  */
 int main(void)
 {
-	 ‘jack_buaer’
-	return (0);
-}
+    jack_buaer();
+    return (0);
+} 
